@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0678c432-6557-43fd-9725-1c86f25531e4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:36227/ValidationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ValidationService.wsdl" MetadataType="Wsdl" ID="e8222a04-6284-49c9-b20b-51eddd87cd54" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?wsdl" />
+    <MetadataFile FileName="ValidationService.disco" MetadataType="Disco" ID="f105176a-0634-4b52-86b1-d9c517191d3b" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?disco" />
+    <MetadataFile FileName="ValidationService.xsd" MetadataType="Schema" ID="f41a794e-ec1b-446d-aa55-c0daefd0a88a" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ValidationService1.xsd" MetadataType="Schema" ID="8711d45f-e391-4f13-a43f-f3c36cc716ad" SourceId="1" SourceUrl="http://localhost:36227/ValidationService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
